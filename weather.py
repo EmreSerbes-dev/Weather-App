@@ -3,7 +3,7 @@ from pprint import pprint
 
 import urllib.parse
 
-address = 'Shivaji Nagar, Bangalore, KA 560001'
+address = 'your address here'
 
 url = 'https://nominatim.openstreetmap.org/search/' + urllib.parse.quote(address) +'?format=json'
 
